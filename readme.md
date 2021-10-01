@@ -6,6 +6,23 @@
 
     $ npm install simple-gift-exchange --save
 
+## API Usage Example
+> see [`example.js`](./example.js) for further detail
+
+```
+const { giftlist } = require('simple-gift-exchange')
+const exchange = giftlist(['Susan', 'Beth', 'Abe', 'Ardi', 'Quan'])
+console.log(exchange)
+
+[
+  [ 'Susan', 'Beth' ],
+  [ 'Beth', 'Quan' ],
+  [ 'Quan', 'Ardi' ],
+  [ 'Ardi', 'Abe' ],
+  [ 'Abe', 'Susan' ]
+]
+```
+
 ## How It Works
 
 A library for automating the creation of a gift exchange list where each member of the group has to both give and receive a gift randomly from among the others.
@@ -21,7 +38,6 @@ A library for automating the creation of a gift exchange list where each member 
 ```
 
 ###### example output:
-> see [`example.js`](./example.js)
 ```
 Abe gives a gift to Quan
 Ardi gives a gift to Beth
@@ -29,10 +45,6 @@ Susan gives a gift to Abe
 Quan gives a gift to Ardi
 Beth gives a gift to Susan
 ```
-
-## Getting Started
-
-    require('simple-gift-exchange')
 
 ## Testing
 
