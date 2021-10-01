@@ -4,7 +4,7 @@
     "lodash.shuffle": "^4.2.0"
   },
   "name": "simple-gift-exchange",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "lib.js",
   "keywords": [],
   "homepage": "https://github.com/wilmoore/simple-gift-exchange",
