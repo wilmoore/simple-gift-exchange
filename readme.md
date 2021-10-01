@@ -1,6 +1,6 @@
 # simple-gift-exchange
 
-[![Build Status](http://img.shields.io/travis/wilmoore/simple-gift-exchange.svg)](https://travis-ci.org/wilmoore/simple-gift-exchange) [![NPM version](http://img.shields.io/npm/v/simple-gift-exchange.svg)](https://www.npmjs.org/package/simple-gift-exchange) [![NPM downloads](http://img.shields.io/npm/dm/simple-gift-exchange.svg)](https://www.npmjs.org/package/simple-gift-exchange) [![LICENSE](http://img.shields.io/npm/l/simple-gift-exchange.svg)](license)
+[![example workflow](https://github.com/wilmoore/simple-gift-exchange/actions/workflows/node.js.yml/badge.svg)](https://github.com/wilmoore/simple-gift-exchange/actions/workflows/node.js.yml) [![NPM version](http://img.shields.io/npm/v/simple-gift-exchange.svg)](https://www.npmjs.org/package/simple-gift-exchange) [![NPM downloads](http://img.shields.io/npm/dm/simple-gift-exchange.svg)](https://www.npmjs.org/package/simple-gift-exchange) [![LICENSE](http://img.shields.io/npm/l/simple-gift-exchange.svg)](license)
 
 > Simple JavaScript API to create a randomized gift exchange list given a list of at least 3 participants
 
