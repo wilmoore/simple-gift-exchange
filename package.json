@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "lodash.flow": "^3.5.0",
+    "lodash.shuffle": "^4.2.0"
+  },
+  "name": "simple-gift-exchange",
+  "version": "1.0.0",
+  "main": "lib.js",
+  "scripts": {
+    "test": "tap"
+  },
+  "keywords": [],
+  "author": "Wil (₩) Moore III <Wil.Moore@wilmoore.com>",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "tap": "^15.0.10"
+  }
+}
