@@ -4,7 +4,7 @@
     "lodash.shuffle": "^4.2.0"
   },
   "name": "simple-gift-exchange",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib.js",
   "scripts": {
     "test": "tap",
