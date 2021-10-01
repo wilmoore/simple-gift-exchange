@@ -4,14 +4,9 @@
     "lodash.shuffle": "^4.2.0"
   },
   "name": "simple-gift-exchange",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib.js",
-  "keywords": [
-    "gift",
-    "exchange",
-    "interview",
-    "homework"
-  ],
+  "keywords": [],
   "homepage": "https://github.com/wilmoore/simple-gift-exchange",
   "repository": {
     "type": "git",
@@ -21,7 +16,6 @@
     "test": "tap",
     "postversion": "git push --follow-tags && npm publish"
   },
-  "keywords": [],
   "author": "Wil (₩) Moore III <Wil.Moore@wilmoore.com>",
   "license": "MIT",
   "description": "",
