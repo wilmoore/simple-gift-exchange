@@ -7,7 +7,8 @@
   "version": "1.0.0",
   "main": "lib.js",
   "scripts": {
-    "test": "tap"
+    "test": "tap",
+    "postversion": "git push --follow-tags && npm publish"
   },
   "keywords": [],
   "author": "Wil (₩) Moore III <Wil.Moore@wilmoore.com>",
