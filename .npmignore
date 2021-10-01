@@ -1,4 +1,2 @@
 *
-!.npmignore
-!example.js
-!test.js
+!lib.js
