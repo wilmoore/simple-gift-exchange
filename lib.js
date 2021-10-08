@@ -40,13 +40,13 @@ const verifier = (attendees) => {
 const wraplist = (attendees) => [ ...attendees ].concat(attendees[0])
 
 /**
- * Ensures `attendees` parameter contains at least the minimum number of elements.
+ * Creates array of tuples as [giver, receiver]
  *
  * @param {Array} attendees
- * List of people participating in the gift exchange.
+ * Ordered List of people participating in the gift exchange.
  *
- * @return {Array[]}
- * List of tuples including giver and receiver.
+ * @return {[giver, receiver][]}
+ * List of tuples as [giver, receiver].
  */
 
 const grouping = (attendees) => {
@@ -69,8 +69,8 @@ const grouping = (attendees) => {
  * @param {Array} attendees
  * List of people participating in the gift exchange.
  *
- * @return {Array[]}
- * List of tuples including giver and receiver.
+ * @return {[giver, receiver][]}
+ * List of tuples as [giver, receiver].
  *
  * @throws {RangeError}
  */
