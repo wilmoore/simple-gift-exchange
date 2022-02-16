@@ -9,7 +9,7 @@ const shuffle = require('lodash.shuffle')
 const MIN_ATTENDEES = 3
 
 /**
- * Ensures `attendees` parameter contains at least the minimum number of elements.
+ * Assert that `attendees` parameter contains at least the minimum number of elements.
  *
  * @param {Array} attendees
  * List of people participating in the gift exchange.
@@ -27,8 +27,8 @@ const verifier = (attendees) => {
 }
 
 /**
- * Duplicate first list element and add it to the end of the list in order to make 
- * mitigate needing to over complicate the grouping logic.
+ * Copy first element to the end of the list...
+ * (to mitigate needing to complicate the grouping logic)
  *
  * @param {Array} attendees
  * List of people participating in the gift exchange.
@@ -40,7 +40,7 @@ const verifier = (attendees) => {
 const wraplist = (attendees) => [ ...attendees ].concat(attendees[0])
 
 /**
- * Creates array of tuples as [giver, receiver]
+ * Creates array of tuples as `[giver, receiver]`
  *
  * @param {Array} attendees
  * Ordered List of people participating in the gift exchange.
